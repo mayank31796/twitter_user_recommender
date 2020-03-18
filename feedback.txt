@@ -1,0 +1,31 @@
+Summary:
+
+This project performs content-based recommendation to suggest friends for one Twitter user. Both tf-idf and LDA features are used.
+
+Overall, the project does a nice job of defining the problem, exploring solutions, and evaluating results. The main issue is that only one user is considered for recommendation, limiting the validity of the conclusions. Furthermore, it was difficult to reproduce your results, due to issues with file naming conventions (see some commits to your project I made recently). Also, some of the methods were not implemented (stats, web, etc.)
+
+
+Code:
+
+$ osna collect data
+
+works
+
+$ osna network 
+
+does nothing.
+
+$ osna stats
+
+does nothing.
+
+$ osna train
+
+works, after some fixing of path separators...
+
+$ osna evaluate
+
+
+$ osna web
+
+does nothing.
